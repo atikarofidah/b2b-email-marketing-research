@@ -21,5 +21,5 @@
 ## YouTube Experts
 9. [Alex Berman](https://www.youtube.com/@AlexBerman)
    - **Anotation:** Expert on [cold email outreach] for B2B. His content is highly practical: frameworks, template breakdowns, and prospecting for SaaS. One of the most frequently cited topics in B2B outbound marketing circles.
-10. [Patrick Dang](https://www.youtube.com/@patrickdang)
-   - **Anotation:** Expert on B2B [sales prospecting] and [cold email]. Having worked in Oracle selling SaaS, his understanding of B2B SaaS is solid. He frequently creates step-by-step tutorials: ICP building, cold email sequences, and LinkedIn + email combos.
+10. [Dan Martell](https://www.youtube.com/@danmartell)
+   - **Anotation:** Serial SaaS founder and operator with direct B2B SaaS scaling experience.
