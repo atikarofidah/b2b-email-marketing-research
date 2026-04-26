@@ -1,61 +1,59 @@
-# cursor-setup
+# B2B SaaS Email Marketing Research Project
 
-## Tools Installed
-- Cursor IDE
-- Claude Code extension
-- Codex extension
-- Git
+This repository is part of a portfolio project for 100Hires. It demonstrates the use of AI-powered tools (Cursor, Claude Code, Codex) to research, collect, and synthesize high-signal marketing strategies from industry experts.
 
-## Steps Completed
-1. Installed Cursor IDE
-2. Installed Claude Code and Codex extensions
-3. Created a public GitHub repository
-4. Connected GitHub with Cursor
-5. Opened repository in Cursor
-6. Edited README.md file
+## 🎯 Research Project: Newsletter / Email Marketing for B2B SaaS
 
-### 1. GitHub Authentication Confusion
-**Issue:**  
-During the process of connecting Cursor IDE with GitHub, I was confused by the authentication flow. The browser requested a device authorization code, but it was not immediately clear where to obtain that code.
+### Why I Chose This Topic
+I chose this topic to expand my existing experience in AI-content production into the realm of **retention marketing** and **lifecycle email strategy**. For B2B SaaS, email is not just a broadcast tool; it is a critical engine for lead nurturing, user activation, and churn prevention. I want to understand how top practitioners build these "invisible" growth engines.
 
-**Solution:**  
-I navigated back to Cursor IDE and triggered the login process using the Command Palette (Ctrl + Shift + P → "GitHub: Sign in"). This generated the required device code, which I then entered on GitHub to complete the authentication successfully.
+### How I Selected Experts
+I filtered experts based on three core pillars:
+1. **Proven Practitioners:** People who currently manage or advise email systems for real SaaS brands.
+2. **Technical & Strategic Balance:** I included experts focused on infrastructure (deliverability/automation) as well as those focused on high-conversion copywriting.
+3. **High-Signal Content:** Creators who share actionable frameworks and data-backed insights rather than generic advice.
+
+### What I Collected
+Using **Claude Code** and **Codex**, I extracted and organized:
+- **LinkedIn Insights:** Tactical posts from 8 industry leaders.
+- **YouTube Transcripts:** Deep-dive video content from 2 top-tier creators.
+- **Expert Annotations:** A curated list in `sources.md` explaining the unique value of each source.
 
 ---
 
-### 2. "Clone Repository" Option Not Visible
-**Issue:**  
-Initially, I could not find the "Clone Repository" option in Cursor, which blocked me from opening my GitHub project.
+## 🛠 Tools & Technical Setup
 
-**Solution:**  
-I used the Command Palette (Ctrl + Shift + P) and manually searched for "Git: Clone". This allowed me to clone the repository using the GitHub URL and proceed with the setup.
+### Tools Used
+- **IDE:** [Cursor](https://cursor.com/)
+- **AI Agents:** Claude Code & Codex
+- **Version Control:** Git & GitHub
+
+### Steps Completed
+1. **Environment Setup:** Installed Cursor IDE and configured AI extensions.
+2. **Repository Architecture:** Created a structured research environment following a professional folder convention.
+3. **Automated Extraction:** Used AI agents to fetch transcripts and format raw LinkedIn data into clean Markdown.
+4. **Git Workflow:** Maintained a consistent commit history to document the project's evolution.
+
+### Challenges & Solutions
+
+#### 1. GitHub Authentication Flow
+- **Issue:** Confusion during the device authorization process in Cursor.
+- **Solution:** Triggered "GitHub: Sign in" via the Command Palette (Ctrl+Shift+P), which successfully generated the device code.
+
+#### 2. Technical Data Extraction (YouTube)
+- **Issue:** Manually transcribing video content is time-inefficient.
+- **Solution:** Leveraged **Claude Code** to interface with YouTube transcripts, allowing for rapid synthesis of 15-20 minute videos into searchable text files.
+
+#### 3. Git Workflow Mastery
+- **Issue:** Understanding the distinction between `commit` (local) and `push` (remote).
+- **Solution:** Adopted a "commit early, commit often" approach to ensure transparency in my work process.
 
 ---
 
-### 3. Git Not Detected in Cursor
-**Issue:**  
-Some Git features were missing in Cursor, indicating that Git might not be properly installed or detected on my system.
-
-**Solution:**  
-I verified the installation using the terminal (`git --version`). After confirming or reinstalling Git, I restarted Cursor IDE, which enabled full Git functionality including clone, commit, and push.
-
----
-
-### 4. Understanding Git Workflow (Commit & Push)
-**Issue:**  
-As a beginner, I needed to understand the difference between local changes (commit) and uploading them to GitHub (push).
-
-**Solution:**  
-I learned that committing saves changes locally, while pushing uploads them to the remote repository. After making changes to README.md, I committed with a message and pushed to GitHub successfully.
-
----
-
-### 5. Initial Setup Overwhelm
-**Issue:**  
-Setting up multiple tools (Cursor, extensions, GitHub) at once felt overwhelming at the beginning.
-
-**Solution:**  
-I broke the process into smaller steps and followed official documentation and tutorials. This made the setup more manageable and helped me understand each component clearly.
-
-## Notes
-This project demonstrates basic setup and usage of AI-powered coding tools and GitHub workflow.
+## 📂 Repository Structure
+```text
+/research
+├── sources.md              # Curated expert list with annotations
+├── linkedin-posts/         # Categorized posts by author
+├── youtube-transcripts/    # Formatted transcripts by video
+└── other/                  # Supplemental materials
