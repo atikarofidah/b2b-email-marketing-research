@@ -18,7 +18,7 @@
 
 ## YouTube Experts
 8. [Eman Ismail](https://www.youtube.com/@emancopyco)
-   - **Annotation:** Expert on [email strategy] and [copywriting]. He frequently discusses trust-building through email, tone of voice, and what's actually changing in email marketing in 2025-2026.
+   - **Annotation:** Expert on [email strategy] and [copywriting]. She frequently discusses trust-building through email, tone of voice, and what's actually changing in email marketing in 2025-2026.
 9. [Alex Berman](https://www.youtube.com/@AlexBerman)
    - **Annotation:** Expert on [cold email outreach] for B2B. His content is highly practical: frameworks, template breakdowns, and prospecting for SaaS. One of the most frequently cited topics in B2B outbound marketing circles.
 10. [Dan Martell](https://www.youtube.com/@danmartell)
